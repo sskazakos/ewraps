@@ -11,3 +11,4 @@ wheels/
 
 # Ignore all files in the data directory
 data/*
+data/GCPB_red_names.csv
