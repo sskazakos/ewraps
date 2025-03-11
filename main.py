@@ -1,4 +1,8 @@
+"""Main module for the GCPB project."""
+
+
 def main():
+    """Entry point for the GCPB project."""
     print("Hello from gcpb!")
 
 
