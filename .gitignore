@@ -11,4 +11,6 @@ wheels/
 
 # Ignore all files in the data directory
 data/*
+dap.ceda.ac.uk/*
 data/GCPB_red_names.csv
+.csv
