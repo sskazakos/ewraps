@@ -98,7 +98,6 @@ def process_locations_csv(input_file: str, output_file: str) -> bool:
         lat, lon = geocode_location(row["Location"], geolocator)
         df.at[index, "Latitude"] = lat
         df.at[index, "Longitude"] = lon
-
         # Add a small delay to comply with Nominatim usage policy
         time.sleep(1)
 
