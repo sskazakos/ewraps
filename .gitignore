@@ -9,6 +9,9 @@ wheels/
 # Virtual environments
 .venv
 
-# Ignore all files in the data directory
-data/*
-data/GCPB_red_names.csv
+# Ignore all files in specific directories
+data_veg/*
+data_wind_nc/*
+dap.ceda.ac.uk/*
+scratch_file.ipynb
+data_station/notes.txt
