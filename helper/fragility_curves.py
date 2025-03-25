@@ -2,16 +2,15 @@
 This script contains the code for the fragility curves in the paper.
 
 Paper:Hou, G. and Muraleetharan, K.K., 2023.
-
 Modeling the resilience of power distribution systems subjected to
 extreme winds considering tree failures: An integrated framework.
 International Journal of Disaster Risk Science, 14(2), pp.194-208.
 """
 
-# pylint: disable=W0632
-
 import numpy as np
 from scipy.optimize import curve_fit
+
+# pylint: disable=W0632
 
 
 def logistic_function(x, a, b, c):
@@ -76,7 +75,11 @@ def compute_tree_fall_load(tree_height):
 
 
 def estimate_resilience_index(performance_curve, time_horizon):
-    """Compute resilience index based on system performance over time.
+    """
+    Estimate RI.
+
+    Compute resilience index based on system performance
+    over time.
 
     Args:
         performance_curve: System performance curve
