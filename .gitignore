@@ -13,5 +13,7 @@ wheels/
 data_veg/*
 data_wind_nc/*
 dap.ceda.ac.uk/*
+data_wind_midas/*
 scratch_file.ipynb
 data_station/notes.txt
+main.ipynb
