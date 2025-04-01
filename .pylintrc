@@ -1,3 +1,6 @@
+# pylint: disable=R0912, R0915, R0914
+# pylint: disable=W0511, W1203, W0715, W0718, W0012, W0707, W0012.
+
 [MASTER]
 
 # A comma-separated list of package or module names from where C extensions may
