@@ -1,5 +1,4 @@
-# Power System Cascading Failures
-## Power Distribution System Resilience Analysis - GCPB
+# Extreme Weather Resilience Analysis of Power Systems (EWRAPS)
 A comprehensive toolkit for analyzing and modeling the resilience of power distribution systems subjected to extreme weather events, with special focus on tree-related failures.
 
 ## Overview
