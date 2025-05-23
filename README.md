@@ -1,11 +1,11 @@
 # Extreme Weather Resilience Analysis of Power Systems (EWRAPS)
 A comprehensive toolkit for analyzing and modeling the resilience of power distribution systems subjected to extreme weather events, with special focus on tree-related failures.
 
-## Overview
+## Overview
 This repository contains a collection of helper modules for analyzing power distribution systems and their resilience to environmental factors, particularly extreme winds and tree failures. The toolkit implements the integrated framework described in:
 > Hou, G. and Muraleetharan, K.K., 2023. Modeling the resilience of power distribution systems subjected to extreme winds considering tree failures: An integrated framework. International Journal of Disaster Risk Science, 14(2), pp.194-208.
 
-## Features
+## Features
 - Geospatial data processing and visualization
 - Integration with multiple geospatial data formats (CSV, TIF, NetCDF)
 - Geocoding capabilities for location data
